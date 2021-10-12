@@ -1,6 +1,6 @@
 :root{
     --branco: #FFF;
-    --azul-claro: #DFE3E5;
+    --azul-claro: #65b5dd;
     --vermelho-forte: #B72E2E;
     --cinza-escuro: #4F4C4C;
     --cinza-claro: #F7F4F4;
@@ -14,4 +14,30 @@ body {
 .container {
     padding-right: 6%;
     padding-left: 6%;
+}
+.absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.margin{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.border{
+    border: var(--azul-claro);
+    border-width: medium;
+    border-radius: 0.7vw;
+    
 }
