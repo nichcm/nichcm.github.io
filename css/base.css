@@ -3,11 +3,13 @@
     --cor2: #1A936F;
     --cor3: #88D498;
     --cor4: #C6DABF;
-    --cor5: #C6DABF;
+    --cor5: #ffffff;
+
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    
     background-color: var(--cor4);
     text-decoration-color: var(--cor1);
 }
