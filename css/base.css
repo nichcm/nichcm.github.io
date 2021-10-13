@@ -1,19 +1,21 @@
 :root{
-    --branco: #FFF;
-    --azul-claro: #65b5dd;
-    --vermelho-forte: #B72E2E;
-    --cinza-escuro: #4F4C4C;
-    --cinza-claro: #F7F4F4;
-    --cinza-medio: #D9D9D9;
+    --cor1: #114B5F;
+    --cor2: #1A936F;
+    --cor3: #88D498;
+    --cor4: #C6DABF;
+    --cor5: #C6DABF;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor4);
+    text-decoration-color: var(--cor1);
 }
 
 .container {
     padding-right: 6%;
     padding-left: 6%;
+    border: var(--cor1);
 }
 .absolute{
     position: absolute;
@@ -35,9 +37,5 @@ body {
     height: 200px;
     margin: auto;
 }
-.border{
-    border: var(--azul-claro);
-    border-width: medium;
-    border-radius: 0.7vw;
-    
-}
+
+
