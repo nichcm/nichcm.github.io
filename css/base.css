@@ -1,23 +1,21 @@
 :root{
-    --cor1: #114B5F;
+    --cor1: #ffffff;
     --cor2: #1A936F;
     --cor3: #88D498;
-    --cor4: #C6DABF;
-    --cor5: #ffffff;
+    --cor4: hsl(0, 0%, 63%);
+    --cor5: #000000;
 
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    
-    background-color: var(--cor4);
+    background-color:var(--cor5);
     text-decoration-color: var(--cor1);
 }
 
 .container {
     padding-right: 6%;
     padding-left: 6%;
-    border: var(--cor1);
 }
 .absolute{
     position: absolute;

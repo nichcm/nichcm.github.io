@@ -1,5 +1,13 @@
-.introdução{
-    display: flex;
-    align-items: center;
-
+section{
+    margin-top: 0.75rem;
+    background: var(--cor4);
 }
+
+.minhafoto{
+    margin-top: 1rem;
+    border-radius: 16px;
+    width: 50vw;
+    max-width: 720px;
+    margin-bottom: .5rem;
+}
+
