@@ -1,10 +1,17 @@
 section{
-    width: 70vw;
-    margin-top: 0.75rem;
-    background: var(--cor1);
+    display: flex;
+    position: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--cor2);
+    padding: auto;
 }
 section p, h2{
     color: var(--cor5);
+}
+
+.introdução{
+    align-items: center;
 }
 
 .minhafoto{
@@ -16,8 +23,14 @@ section p, h2{
 }
 
 .contatos{
-    display: flexbox;
+    display: flex;
     
+}
+
+@media (min-width: 768px) {
+    section{
+        width: 70%;
+    }
 }
 
 

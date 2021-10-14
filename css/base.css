@@ -15,9 +15,21 @@ body {
     width: 100vw;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .container {
     padding-right: 6%;
     padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 12px;
+    border-radius: 16px;
+    
 }
 .absolute{
     position: absolute;
