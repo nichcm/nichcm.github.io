@@ -19,7 +19,9 @@ section p, h2{
     border-radius: 16px;
     width: 50vw;
     max-width: 420px;
-    margin-bottom: .5rem;
+    border-radius: 50%;
+    margin-bottom: 12px;
+
 }
 
 .contatos{
