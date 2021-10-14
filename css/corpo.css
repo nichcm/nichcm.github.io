@@ -1,13 +1,17 @@
 section{
+    width: 70vw;
     margin-top: 0.75rem;
-    background: var(--cor4);
+    background: var(--cor1);
+}
+section p, h2{
+    color: var(--cor5);
 }
 
 .minhafoto{
     margin-top: 1rem;
     border-radius: 16px;
     width: 50vw;
-    max-width: 720px;
+    max-width: 420px;
     margin-bottom: .5rem;
 }
 

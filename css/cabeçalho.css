@@ -1,0 +1,75 @@
+header{
+    
+    align-items: center;
+    
+    width: 100%;
+    box-sizing: border-box;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+/*Itens da barra: logo e barra de navegação*/
+
+header nav{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    transform-style: preserve-3d;   
+    padding: 1em;
+}
+
+
+header img{
+    align-self: ;
+    margin-bottom: 1rem;
+    width: 100vw;
+    max-width: 210px;
+    align-self: center;
+}
+
+
+
+.titulo{
+    color: var(--cor3);
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left:0.7rem;
+}
+
+/* caracteristica dos itens de navegação*/
+.navbar a{
+    font-size: 1em;
+    text-decoration: none;/* tirando o texto feio, padrao*/
+    padding: 1em;
+    color: white;
+    
+}
+.nome_menu{
+    background: var(--cor4);
+    border-radius: .7rem;
+    padding: 12px; 
+    text-decoration-color: var(--cor5);
+    
+}
+
+.navbar a:hover, .navbar a:focus{
+    border-radius: .7rem;
+    transition: 1s;
+}
+
+
+/* mudando para desktop*/
+@media (min-width: 768px) {
+    .logo{
+        align-self: flex-start;
+        margin-left: 2rem;
+    }
+    header nav{
+        align-content: flex-end;
+    }
+}
