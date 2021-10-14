@@ -11,6 +11,14 @@ header{
     padding-bottom: .75rem;
 }
 
+header nav{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+
 .titulo{
     color: var(--cor3);
 }
