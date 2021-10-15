@@ -8,6 +8,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    size: 25px;
+}
+
+p{
+    size-adjust: 20px;
+}
+
 body {
     margin: 0;
     padding: 0;

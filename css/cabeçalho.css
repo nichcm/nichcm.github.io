@@ -1,10 +1,6 @@
 header{
-    
-    align-items:center;
-    
     width: 100%;
     box-sizing: border-box;
-
     padding-top: .75rem;
     padding-bottom: .75rem;
 }
@@ -12,64 +8,86 @@ header{
 /*Itens da barra: logo e barra de navegação*/
 
 header nav{
+    /*transform-style: preserve-3d;*/   
+    padding: 1em;
+}
+
+.itens_navbar{
     display: flex;
     position: relative;
+    flex-direction: row;
     justify-content: space-evenly;
     transform-style: preserve-3d;   
     padding: 1em;
 }
 
-
-header img{
-    align-self: center;
+/*header img{
+    
     margin-bottom: 1rem;
-    width: 100vw;
+    
     max-width: 210px;
     align-self: center;
 }
+Logo que havia colocado e nao consegui adequar*/
 
 
 
 .titulo{
-    color: var(--cor3);
+    color: var(--cor1);
 }
 
-.navbar li{
-    display: inline-block;
+.itens_navbar li{
+    display: flex;
+    position: center;
     margin-right: .7rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2rem;
     margin-left:0.7rem;
+    border-radius: .7rem;
+    
 }
+
+    
+
 
 /* caracteristica dos itens de navegação*/
-.navbar a{
-    font-size: 1em;
+.itens_navbar a{
+    align-items: baseline;
+    
+    font-size: 25px;
+    text-align: center;
     text-decoration: none;/* tirando o texto feio, padrao*/
-    padding: 1em;
-    color: white;
+    color: var(--cor2);
+    padding: 12px;
     
 }
 .nome_menu{
-    background: var(--cor4);
-    border-radius: .7rem;
-    padding: 12px; 
-    text-decoration-color: var(--cor5);
+    
+    
     
 }
 
-.navbar a:hover, .navbar a:focus{
+.itens_navbar a:hover, .itens_navbar a:focus{
     border-radius: .7rem;
     transition: 1s;
 }
 
 
 /* mudando para desktop*/
-@media (min-width: 768px) {
-    .logo{
+@media (max-width: 768px) {
+    
+    .itens_navbar li{
+        background: var(--cor5);
+        color: var(--cor2);
+    }
+
+    .itens_navbar{
+        flex-direction: column;
+    }
+    /*.logo{
         align-self: flex-start;
         margin-left: 2rem;
-    }
-    header nav{
-        align-content: flex-end;
+    }*/
+    header{
+        align-items: center;
     }
 }
