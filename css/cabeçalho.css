@@ -61,13 +61,6 @@ Logo que havia colocado e nao consegui adequar*/
     
 }
 
-.itens_navbar a:hover{
-    color: var(--cor5);
-    background-color: var(--cor2);
-}
-
-    
-
 
 /* caracteristica dos itens de navegação*/
 .itens_navbar a{
@@ -78,34 +71,42 @@ Logo que havia colocado e nao consegui adequar*/
     text-decoration: none;/* tirando o texto feio, padrao*/
     color: var(--cor2);
     padding: 12px;
-    
+    transition: 1s;    
 }
 
 
 .itens_navbar a:hover, .itens_navbar a:focus{
     border-radius: .7rem;
-    transition: 1s;
+    
+    color: var(--cor5);
+    background-color: var(--cor2);
 }
 
 
 /* mudando para desktop*/
 @media (max-width: 800px) {
-
     .nome_menu{
-
+        font-size: 2.5rem;
     }
     
     .itens_navbar li{
         background: var(--cor5);
         color: var(--cor2);
+
+        margin-right: .7rem;
+        margin-bottom: .7rem;
+        margin-left:0.7rem;
     }
 
     .itens_navbar{
-        flex-direction: row;
+        flex-direction: column;
+        
+
     }
 
     .itens_navbar a{
         transition: opacity 2 ease-out;
+        font-size: 1rem;
     }
     .logo{
         align-self: flex-start;
