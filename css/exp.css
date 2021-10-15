@@ -1,8 +1,7 @@
 .exp_section{
-
-    
-
+    margin-bottom: 6%;
 }
+
 .exp_section h1{
 
     text-align: center;
@@ -20,5 +19,4 @@
 
 .exp_section div{
     margin-top: 6%;
-    margin-botton: 6%;
 }

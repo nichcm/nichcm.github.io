@@ -13,6 +13,27 @@
 }
 
 
+* {box-sizing:border-box}
+.barra_vazia{
+    width: 100%;
+    background-color: var(--cor3);/* cor do funto da skill */
+    margin-bottom: 1rem;
+}
+
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: var(--cor2); /* White text color */
+  }
+
+.html {width: 80%; background-color: var(--cor5);}
+.ingles {width: 80%; background-color: var(--cor5);} /* Green */
+.python {width: 40%; background-color: var(--cor5);}
+.C {width: 80%; background-color: var(--cor5);}
+.Csharp {width: 40%; background-color: var(--cor5);}
+
 
 
 @media (max-width: 800px) {
