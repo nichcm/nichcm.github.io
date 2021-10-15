@@ -53,7 +53,7 @@ Logo que havia colocado e nao consegui adequar*/
 .itens_navbar a{
     align-items: baseline;
     
-    font-size: 25px;
+    font-size: 2rem;
     text-align: center;
     text-decoration: none;/* tirando o texto feio, padrao*/
     color: var(--cor2);
@@ -69,7 +69,7 @@ Logo que havia colocado e nao consegui adequar*/
 
 
 /* mudando para desktop*/
-@media screen and (max-width: 685px) {
+@media (max-width: 800px) {
     
     .itens_navbar li{
         background: var(--cor5);
