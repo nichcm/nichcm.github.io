@@ -1,7 +1,7 @@
 section{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 87%;
     background-color: var(--cor2);
 }
 section p, h2{
