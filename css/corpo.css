@@ -1,10 +1,8 @@
 section{
     display: flex;
-    position: center;
     flex-direction: column;
     width: 100%;
     background-color: var(--cor2);
-    padding: auto;
 }
 section p, h2{
     color: var(--cor5);
