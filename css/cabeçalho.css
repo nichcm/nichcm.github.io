@@ -12,12 +12,27 @@ header nav{
     padding: 1em;
 }
 
+.nome_menu{
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2.2rem;
+    color: var(--cor2);
+}
+
+
+
+
+
+
 .itens_navbar{
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-evenly;
-    transform-style: preserve-3d;   
+    align-items: stretch;
+    
+    justify-content: space-evenly;  
     padding: 1em;
 }
 
@@ -46,6 +61,11 @@ Logo que havia colocado e nao consegui adequar*/
     
 }
 
+.itens_navbar a:hover{
+    color: var(--cor5);
+    background-color: var(--cor2);
+}
+
     
 
 
@@ -53,7 +73,7 @@ Logo que havia colocado e nao consegui adequar*/
 .itens_navbar a{
     align-items: baseline;
     
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
     text-decoration: none;/* tirando o texto feio, padrao*/
     color: var(--cor2);
@@ -70,6 +90,10 @@ Logo que havia colocado e nao consegui adequar*/
 
 /* mudando para desktop*/
 @media (max-width: 800px) {
+
+    .nome_menu{
+
+    }
     
     .itens_navbar li{
         background: var(--cor5);
@@ -77,7 +101,11 @@ Logo que havia colocado e nao consegui adequar*/
     }
 
     .itens_navbar{
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    .itens_navbar a{
+        transition: opacity 2 ease-out;
     }
     .logo{
         align-self: flex-start;

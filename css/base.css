@@ -5,7 +5,7 @@
     --cor4: hsl(150, 1%, 26%);
     --cor5: rgb(146, 39, 165);
 
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1{
@@ -19,6 +19,7 @@ p{
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(45deg, #102eff, #d2379b);
 }
 
