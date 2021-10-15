@@ -68,8 +68,8 @@ Logo que havia colocado e nao consegui adequar*/
 }
 
 
-/* mudando para desktop
-@media (max-width: 768px) {
+/* mudando para desktop*/
+@media screen and (max-width: 685px) {
     
     .itens_navbar li{
         background: var(--cor5);
