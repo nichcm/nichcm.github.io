@@ -1,12 +1,13 @@
 
 footer{
     color: var(--cor2);
-    width: 100vw;
+    width: 100%;
+
 
 }
 
 .rodape{
-    
+    align-self: center;
     
     margin-top: -200px;
     

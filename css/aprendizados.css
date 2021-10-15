@@ -1,0 +1,28 @@
+.aprendizados{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content: space-evenly;
+}
+.aprendizados h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.aprendizados p{
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 800px) {
+
+    .aprendizados{
+        flex-direction: column;
+        gap:.75rem;
+    }
+
+
+    .aprendizados h1{
+        font-size: 1.25rem;
+    }
+
+}
