@@ -1,13 +1,18 @@
-footer h1{
 
+footer{
     color: var(--cor2);
+    width: 100vw;
+
 }
 
 .rodape{
-    display: block;
+    
+    
+    margin-top: -200px;
+    
     border-top: solid 1px;
-    opacity: 0.75;
     margin-top: 12px;
-    padding: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
 }

@@ -9,24 +9,24 @@
 }
 
 h1{
-    size: 25px;
+    size: 2rem;
 }
 
 p{
-    size-adjust: 20px;
+    size-adjust: 1rem;
 }
 
 body {
     margin: 0;
     padding: 0;
     background: linear-gradient(45deg, #102eff, #d2379b);
-    width: 100vw;
 }
 
-main{
+Main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh; /* previne que o rodape fica na parte de cima*/
 }
 
 
