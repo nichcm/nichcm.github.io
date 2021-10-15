@@ -12,8 +12,10 @@
         <link rel="stylesheet" href="./css/corpo.css">
         <link rel="stylesheet" href="./css/rodape.css">
         <link rel="stylesheet" href="./css/aprendizados.css">
+        <link rel="stylesheet" href="./css/contato.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        </head>
+    </head>
     <body>
         <header>
             <nav>
@@ -21,7 +23,7 @@
                 <ul class= "itens_navbar">
                     <li><a href="exp.html">Experiência Profissional</a></li>
                     <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -59,14 +61,29 @@
                 
             </section>
 
-            <section class="container">
+            <section class="container contato grid" id="contato">
                 <h1>Contatos</h1>
-                    <ul>
-                        <li><a href="#"></a>Telefone: +55 (41)99718-5757</li>
-                        <li><a href="#"></a>email: nicolas.azul.job@gmail.com</li>
-                        <button href="https://www.wa.me/5541997185757">Whatsapp</button>
-                        <button href="https://www.linkedin.com/in/nicolas-henrique/">Linkedln</button>
-                    </ul>
+                    <ul class="">
+                        <p>Telefone: +55 (41)99718-5757</p>
+                        <p>email: nicolas.azul.job@gmail.com</p>
+
+
+                        <ul class="contato_button">
+                            
+                            <a href="https://api.whatsapp.com/send?phone=554199718575">
+                                <img class= "whats" src="Imgs/whatsapp-icone-1.png">
+                            </a>
+                            
+                            
+                            <a target="_blank" href="https://www.linkedin.com/in/nicolas-henrique/">
+                                <i class="devicon-linkedin-plain"></i>
+                            </a>
+                            
+                            <a target="_blank" href="https://github.com/nichcm">
+                                <i class="devicon-github-original-wordmark colored"></i>
+                            </a>
+                        </ul>
+                </ul>
             </section>
         </Main>
 

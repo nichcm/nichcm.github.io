@@ -13,6 +13,8 @@
 }
 
 
+
+
 @media (max-width: 800px) {
 
     .aprendizados{
@@ -23,6 +25,11 @@
 
     .aprendizados h1{
         font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .aprendizados p{
+        text-align: center;
     }
 
 }

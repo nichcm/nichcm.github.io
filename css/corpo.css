@@ -32,9 +32,9 @@ section p, h2{
     margin-bottom: 12px;
 }
 
-.contatos{
-    display: flex;
-}
+
+
+
 
 @media (max-width: 800px) {
 
@@ -47,6 +47,8 @@ section p, h2{
     .introdução h1{
         font-size: 1.25rem;
     }
+
+   
 
 
     section{

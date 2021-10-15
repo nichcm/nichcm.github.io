@@ -1,0 +1,43 @@
+
+
+.contato_button{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+
+}
+
+.whats{
+    width: 3rem;
+}
+
+
+
+
+.contato{
+    justify-content: center;
+}
+
+.contato h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+
+.contato p{
+    margin-bottom: 1rem;
+}
+
+
+
+
+i{
+    font-size:3rem;
+}
+
+
+
+
+
+
