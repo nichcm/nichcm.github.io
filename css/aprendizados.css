@@ -34,11 +34,9 @@
     border-radius: 16px;
 }
 
-.html {width: 80%; background-color: var(--cor5);}
-.ingles {width: 80%; background-color: var(--cor5);} /* Green */
-.python {width: 40%; background-color: var(--cor5);}
-.C {width: 80%; background-color: var(--cor5);}
-.Csharp {width: 40%; background-color: var(--cor5);}
+.avançado {width:100%; background-color: var(--cor5);}
+.intermediario {width: 80%; background-color: var(--cor5);} /* Green */
+.basico {width: 60%; background-color: var(--cor5);}
 
 
 
